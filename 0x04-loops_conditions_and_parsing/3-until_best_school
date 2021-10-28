@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# displays Holberton School 10 times
+# displays best School 10 times
 
 COUNTER=0
 until [ "$COUNTER" -eq 10 ]; do
