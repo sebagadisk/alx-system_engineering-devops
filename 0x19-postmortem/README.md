@@ -1,5 +1,5 @@
 # Postmortem
-![A moment of self reflection within management after an outage.(meme)](https://github.com/sebagadisk/Images/blob/main/GIF.mp4)
+![A moment of self reflection within management after an outage.(meme)](https://github.com/sebagadisk/Images/blob/main/GIF.gif)
 ## Issue Summary:
 On 2/12/22 at 5:23 pm PST, 100% of the website's service was down for a total 12 minutes, with service reinstated at 5:35 pm PST. Users universally experienced a response with a status code of 500 (internal server error). The root cause of the outage was a single-letter, typographical error in which a `.php` file was typed as a `.phpp` file.
 
